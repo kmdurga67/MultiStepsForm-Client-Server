@@ -1,0 +1,37 @@
+
+.review-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    font-size: 40px;
+  }
+  
+  .review-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: blue;
+  }
+  
+  .fontsize {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 15px;
+  }
+  
+  @media (max-width: 600px) {
+    .review-container {
+      padding: 10px;
+      font-size: 30px;
+    }
+  
+    .fontsize {
+      font-size: 30px;
+      margin: 10px;
+    }
+  }
